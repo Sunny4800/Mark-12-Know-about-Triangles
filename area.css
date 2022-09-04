@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 1rem;
+    text-align: initial;
+    font-family: 'Bree Serif', serif;
+    background-color: #0D21A1;
+    color: white;
+    margin-bottom: 3rem;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: #09f755;
+}
+nav{
+    text-align: right;
+}
+nav a:hover{
+    color: #f24404;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem 0.6rem;
+}
+form{
+    padding: 1rem;
+
+}
+label{
+    font-size: larger;
+    color: var(--primary-color);
+    width: 256px;
+}
+label p{
+    font-size: larger;
+    margin: 0.5rem;
+} 
+input{
+    font-size: 14px;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid #7c3aed;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+}
+.calculate-btn{
+    display: block;
+    background-color: #09f755;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    margin: 1rem auto;
+}
+.calculate-btn:hover{
+    background-color: #f24406;
+}
+#output{
+    font-size: x-large;
+    margin: 1rem;
+    color: #7c3aed;
+}
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 1rem;
+}
+footer p{
+    font-size: large;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #09f755;
+}
+@media only screen and (max-width:400px) {
+    nav a{
+        text-align: center;
+        font-size: x-small;
+    }
+    footer{
+        margin-top: 2rem;
+        position: relative;
+    }
+}

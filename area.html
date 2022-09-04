@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of the Triangle</title>
+    <link rel="stylesheet" href="area.css">
+</head>
+<body>
+    <header>
+        <h1>Know About Triangle</h1>
+        <nav> 
+        <a href="index.html">Know About Triangle?</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="hypotenuse.html">Hypotenuse</a>
+        <a href="area.html">Area of Triangle</a>
+        </nav>
+    </header>
+    <div class="area">
+      <h1>Calculate Area of a triangle</h1>
+      <form id="calculate-area">
+        <label class="input-label" for="first-side">
+          <p>Enter first side of a triangle</p>
+          <input class="input-text" required type="number" id="first-side" />
+        </label>
+        <label class="input-label" for="second-side">
+          <p>Enter second side of a triangle</p>
+          <input class="input-text" required type="number" id="second-side" />
+        </label>
+        <label class="input-label" for="third-side">
+          <p>Enter third side of a triangle</p>
+          <input class="input-text" required type="number" id="third-side" />
+        </label>
+        <button class="calculate-btn" type="submit">Calculate</button>
+      </form>
+      <p class="area-output" id="output"></p>
+    </div>
+    <footer>
+        <p>Made By <a href="https://sunny-singh.netlify.app/" target="_blank"> Sunny Singh</a></p>
+    </footer>
+
+
+    <script src="area.js"></script>
+</body>
+</html>
