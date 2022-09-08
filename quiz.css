@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: #46B1C9;
+}
+h1,h3{
+    color: #f24404;
+}
+header{
+    padding: 1rem;
+    text-align: initial;
+    font-family: 'Bree Serif', serif;
+    background-color: #0D21A1;
+    color: white;
+    margin-bottom: 3rem;
+}
+nav{
+    text-align: right;
+}
+nav a:hover{
+    color: #f24404;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0.2rem 0.6rem;
+}
+.quiz{
+    margin: 2rem auto;
+    width: 85%;
+    text-align: center;
+}
+.quiz h2,strong{
+    color: #f24406;
+}
+section {
+    margin: 3rem 0rem;
+}
+  
+section > form > ul{
+    list-style: none;
+}
+  
+section > form > ul > li{
+    margin: 2rem 0rem;
+}
+  
+section > form > ul > li > p{
+    margin-bottom: 0.75rem;
+}
+  
+section > form > ul > li > label{
+    margin: 0rem 0.25rem;
+    cursor: pointer;
+}
+label{
+    padding: 1rem;
+}
+#submit{
+    display: block;
+    background-color: #09f755;
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    margin: 1rem auto;
+}
+#submit:hover{
+    background-color: #f24406;
+}
+#output{
+    font-size: x-large;
+    margin: 3rem;
+    color: #7c3aed;
+}
+
+footer{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+footer p{
+    font-size: x-large;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #09f755;
+}
+@media only screen and (max-width:400px) {
+    nav a{
+        text-align: center;
+        font-size: x-small;
+    }
+}
